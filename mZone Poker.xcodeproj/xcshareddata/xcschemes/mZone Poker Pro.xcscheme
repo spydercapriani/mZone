@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EC9527411B8043450098D609"
-               BuildableName = "mZone Poker.app"
-               BlueprintName = "mZone Poker"
+               BlueprintIdentifier = "04CE0CB921C5ACFE00933DDE"
+               BuildableName = "mZone Poker Pro.app"
+               BlueprintName = "mZone Poker Pro"
                ReferencedContainer = "container:mZone Poker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04CE0CEE21C5C57400933DDE"
-               BuildableName = "mZone Poker_UITests.xctest"
-               BlueprintName = "mZone Poker_UITests"
+               BlueprintIdentifier = "04CE0CFC21C5C58D00933DDE"
+               BuildableName = "mZone Poker Pro_UITests.xctest"
+               BlueprintName = "mZone Poker Pro_UITests"
                ReferencedContainer = "container:mZone Poker.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0477594421EC067E001618DA"
-               BuildableName = "mZone Poker UITests.xctest"
-               BlueprintName = "mZone Poker UITests"
+               BlueprintIdentifier = "0477595221EC06A4001618DA"
+               BuildableName = "mZone Poker Pro UITests.xctest"
+               BlueprintName = "mZone Poker Pro UITests"
                ReferencedContainer = "container:mZone Poker.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -52,9 +52,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC9527411B8043450098D609"
-            BuildableName = "mZone Poker.app"
-            BlueprintName = "mZone Poker"
+            BlueprintIdentifier = "04CE0CB921C5ACFE00933DDE"
+            BuildableName = "mZone Poker Pro.app"
+            BlueprintName = "mZone Poker Pro"
             ReferencedContainer = "container:mZone Poker.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,9 +75,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC9527411B8043450098D609"
-            BuildableName = "mZone Poker.app"
-            BlueprintName = "mZone Poker"
+            BlueprintIdentifier = "04CE0CB921C5ACFE00933DDE"
+            BuildableName = "mZone Poker Pro.app"
+            BlueprintName = "mZone Poker Pro"
             ReferencedContainer = "container:mZone Poker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -94,9 +94,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC9527411B8043450098D609"
-            BuildableName = "mZone Poker.app"
-            BlueprintName = "mZone Poker"
+            BlueprintIdentifier = "04CE0CB921C5ACFE00933DDE"
+            BuildableName = "mZone Poker Pro.app"
+            BlueprintName = "mZone Poker Pro"
             ReferencedContainer = "container:mZone Poker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

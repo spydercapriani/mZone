@@ -78,13 +78,24 @@ class ViewController: UIViewController {
     let totalBlindValue = bigBlindValue + (bigBlindValue / 2)
     let numberOfBigBlinds = chipCountValue / totalBlindValue
     
+    let bigBlindsLeftString = String(
+      format: NSLocalizedString(
+        "You have %d big blinds left. ",
+        comment: ""),
+      numberOfBigBlinds)
+    
+    let recommendationString = NSLocalizedString(
+      numberOfBigBlinds > 6 ?
+        "You can wait for better cards."
+        : "Go all in!", comment: "")
+    
     if numberOfBigBlinds > 6 {
       displayMessage(
-        NSLocalizedString("You can wait for better cards", comment: ""),
+        bigBlindsLeftString + recommendationString,
         title: NSLocalizedString("Recommendation", comment: ""))
     } else {
       displayMessage(
-        NSLocalizedString("Go all in", comment: ""),
+        bigBlindsLeftString + recommendationString,
         title: NSLocalizedString("Recommendation", comment: ""))
     }
     
@@ -96,8 +107,8 @@ class ViewController: UIViewController {
     let alertController = UIAlertController(
       title: title,
       message: message,
-      
       preferredStyle: .alert)
+    
     let cancelAction = UIAlertAction(
       title: NSLocalizedString("OK", comment: ""),
       style: .cancel)
@@ -110,4 +121,3 @@ class ViewController: UIViewController {
     view.endEditing(true)
   }
 }
-

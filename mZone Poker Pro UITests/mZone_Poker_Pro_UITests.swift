@@ -1,4 +1,4 @@
-/// Copyright (c) 2019 Razeware LLC
+///// Copyright (c) 2019 Razeware LLC
 ///
 /// Permission is hereby granted, free of charge, to any person obtaining a copy
 /// of this software and associated documentation files (the "Software"), to deal
@@ -26,11 +26,27 @@
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
 
-"Please enter your chip count" = "S'il vous plaît entrez votre nombre de chip";
-"Please enter the big blind amount" = "S'il vous plaît entrer dans la grande quantité aveugle";
-"Action Required" = "Action requise";
-"OK" = "D'accord";
-"Recommendation" = "Recommendation";
-"You can wait for better cards" = "Vous pouvez attendre de meilleures cartes";
-"Go all in" = "Allez tous en";
+import XCTest
+
+class mZone_Poker_Pro_UITests: XCTestCase {
+  func testExample() {
+    // 1
+    let app = XCUIApplication()
+    setupSnapshot(app)
+    app.launch()
+    // 2
+    let chipCountTextField = app.textFields["chip count"]
+    chipCountTextField.tap()
+    chipCountTextField.typeText("10")
+    // 3
+    let bigBlindTextField = app.textFields["big blind"]
+    bigBlindTextField.tap()
+    bigBlindTextField.typeText("100")
+    // 4
+    snapshot("01UserEntries")
+    // 5
+    app.buttons["what should i do"].tap()
+    snapshot("02Suggestion")
+  }
+}
 

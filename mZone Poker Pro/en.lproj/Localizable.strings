@@ -26,11 +26,11 @@
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
 
-"Please enter your chip count" = "S'il vous plaît entrez votre nombre de chip";
-"Please enter the big blind amount" = "S'il vous plaît entrer dans la grande quantité aveugle";
-"Action Required" = "Action requise";
-"OK" = "D'accord";
+"Please enter your chip count" = "Please enter your chip count";
+"Please enter the big blind amount" = "Please enter the big blind amount";
+"Action Required" = "Action Required";
+"OK" = "OK";
 "Recommendation" = "Recommendation";
-"You can wait for better cards" = "Vous pouvez attendre de meilleures cartes";
-"Go all in" = "Allez tous en";
-
+"You can wait for better cards" = "You can wait for better cards";
+"Go all in" = "Go all in";
+"You have %d big blinds left. " = "You have %d big blinds left. ";
